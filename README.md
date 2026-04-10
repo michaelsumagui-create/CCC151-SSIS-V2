@@ -1,33 +1,57 @@
-# KELWXY - is a Student Information System
+# KELWXY – Student Information System
 
-The objective of this project is to complete the requirements for the subject **CCC151 - Information Management Systems**.
+This project was developed to fulfill the requirements for the course **CCC151 – Information Management Systems**.
 
+---
 
-## About This Project
+## 📌 About This Project
 
-The KELWXY student information system was developed using Python, PyQt6, and CSV data storage without the need for database management. It offers all of the CRUDL capabilities, including **searching**, **sorting**, and **batch operation**.
+KELWXY (version 2) is a Student Information System built using **Python**, **PyQt6**, and **SQLite3** as the database (RDBMS) replacing CSV-based data management. The system implements full **CRUDL** functionality (Create, Read, Update, Delete, List) for managing:
 
+- **College**
+- **Program**
+- **Student**
 
-## How To Access
+It also includes additional features such as **searching**, **sorting**, and **pagination** to efficiently handle large datasets.
 
-This project includes user authentication. You can log in as an administrator to manage the application, including editing and removing data, or you can log in as a user only to view it.
+The database is **pre-populated with over 5000 students and 30 programs**, following the project requirements.
 
-To access the application, use the following credentials:
-- Username: admin   Password: admin123
-- Username: user    Password: user123
+---
 
-## Features
+## 🔐 How to Access
+
+The system includes a login authentication feature.
+
+Use the following credentials to access the application:
+
+### **Administrator**
+- **Username:** `admin`
+- **Password:** `admin123`
+
+### **User (View-Only)**
+- **Username:** `user`
+- **Password:** `user123`
+
+Administrators can perform full CRUDL operations.  
+Regular users can only view information.
+
+---
+
+## 🚀 Features
 
 - **User Authentication**
-- **College Management**
-- **Program Management**
-- **Student Management**
-- **SORTING** 
-- **SEARCHING**
-- **CSV** - based database
-- **BATCH OPERATION**
+- **College Management Module**
+- **Program Management Module**
+- **Student Management Module**
+- **CRUDL Operations**
+- **Searching**
+- **Sorting**
+- **Pagination**
+- **SQLite3 Database Integration**
+- **Pre-Populated Data (5000+ Students, 30+ Programs)**
 
+---
 
-## License
+## 📄 License
 
 This project is for educational purposes only.
