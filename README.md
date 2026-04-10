@@ -6,7 +6,7 @@ This project was developed to fulfill the requirements for the course **CCC151 â
 
 ## ðŸ“Œ About This Project
 
-KELWXY (version 2) is a Student Information System built using **Python**, **PyQt6**, and **SQLite3** as the database (RDBMS) replacing CSV-based data management. The system implements full **CRUDL** functionality (Create, Read, Update, Delete, List) for managing:
+KELWXY (version 2) is a Student Information System built using **Python**, **PyQt6**, and **SQLite3** as the database (RDBMS) replacing CSV-based data management from version 1. The system implements full **CRUDL** functionality (Create, Read, Update, Delete, List) for managing:
 
 - **College**
 - **Program**
